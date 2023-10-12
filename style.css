@@ -1,0 +1,20 @@
+div{ 
+     display:inline-block;
+    width:200px;
+    height:200px;
+ margin:-1px
+        }
+   .vermelho
+{background-color:red;}
+.azul{background-color:aquamarine;}
+.verde{background-color:greenyellow;}
+.amarelo{background-color:yellow;}
+#borda
+{border: 1px solid black;}
+<body>
+  <div class="vermelho borda"></div>
+<div class="azul"></div>
+<div class="verde"></div>
+<div class="amarelo"></div>
+<div id="borda" class="vermelho"></div>
+</body>
